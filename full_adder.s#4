@@ -9163,16 +9163,16 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0029/0900766b800296c
 <text x="281.94" y="233.68" size="3.81" layer="100">1 clock</text>
 <text x="373.38" y="233.68" size="3.81" layer="100">2 counter</text>
 <text x="447.04" y="233.68" size="3.81" layer="100">3 input MUX</text>
-<text x="284.48" y="149.86" size="3.81" layer="100">4 EEPROM (bcd decoder)</text>
+<text x="281.94" y="157.48" size="3.81" layer="100">4 EEPROM (bcd decoder)</text>
 <text x="296.926" y="122.428" size="0.8128" layer="97">ones/tens</text>
-<text x="375.92" y="149.86" size="3.81" layer="100">5 output MUX</text>
+<text x="373.38" y="157.48" size="3.81" layer="100">5 output MUX</text>
 <text x="482.6" y="60.96" size="3.81" layer="100">6 7-segment displays</text>
 <text x="485.394" y="54.61" size="0.8128" layer="97">BCD_DATA_[A..F],GND</text>
-<text x="553.72" y="233.68" size="3.81" layer="100">7 Adder</text>
+<text x="543.56" y="233.68" size="3.81" layer="100">7 Adder</text>
 <wire x1="276.86" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="100" style="longdash"/>
 <wire x1="365.76" y1="71.12" x2="439.42" y2="71.12" width="0.1524" layer="100" style="longdash"/>
 <wire x1="439.42" y1="71.12" x2="474.98" y2="71.12" width="0.1524" layer="100" style="longdash"/>
-<wire x1="477.52" y1="71.12" x2="535.94" y2="71.12" width="0.1524" layer="100" style="longdash"/>
+<wire x1="474.98" y1="71.12" x2="535.94" y2="71.12" width="0.1524" layer="100" style="longdash"/>
 <wire x1="535.94" y1="71.12" x2="655.32" y2="71.12" width="0.1524" layer="100" style="longdash"/>
 <wire x1="365.76" y1="243.84" x2="365.76" y2="167.64" width="0.1524" layer="100" style="longdash"/>
 <wire x1="365.76" y1="167.64" x2="365.76" y2="71.12" width="0.1524" layer="100" style="longdash"/>
@@ -9181,7 +9181,6 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0029/0900766b800296c
 <wire x1="276.86" y1="167.64" x2="365.76" y2="167.64" width="0.1524" layer="100" style="longdash"/>
 <wire x1="365.76" y1="167.64" x2="439.42" y2="167.64" width="0.1524" layer="100" style="longdash"/>
 <wire x1="535.94" y1="243.84" x2="535.94" y2="71.12" width="0.1524" layer="100" style="longdash"/>
-<wire x1="477.52" y1="71.12" x2="474.98" y2="71.12" width="0.1524" layer="100" style="longdash"/>
 <wire x1="474.98" y1="71.12" x2="474.98" y2="-7.62" width="0.1524" layer="100" style="longdash"/>
 </plain>
 <instances>

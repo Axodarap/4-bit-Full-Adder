@@ -9156,12 +9156,12 @@ single cathode, 13 mm</description>
 <part name="IC6" library="SamacSys_Parts" deviceset="74HC4051N,652" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D3" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D4" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D5" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
-<part name="D6" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="D_A1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="D_A0" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="D_B1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="D_B0" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="D_S1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
+<part name="D_S0" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="7SEG-CK" device="" package3d_urn="urn:adsk.eagle:package:26668/2"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -9633,6 +9633,7 @@ single cathode, 13 mm</description>
 <wire x1="76.2" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="100" style="longdash"/>
 <wire x1="76.2" y1="124.46" x2="76.2" y2="48.26" width="0.1524" layer="100" style="longdash"/>
 <text x="-10.16" y="38.1" size="3.81" layer="100">6 7-segment displays</text>
+<text x="-7.366" y="31.75" size="0.8128" layer="97">BCD_DATA_[A..F],GND</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-17.78" y="-12.7" smashed="yes"/>
@@ -9762,27 +9763,27 @@ single cathode, 13 mm</description>
 <instance part="GND19" gate="1" x="88.9" y="68.58" smashed="yes">
 <attribute name="VALUE" x="86.36" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="5.08" y="15.24" smashed="yes">
+<instance part="D_A1" gate="G$1" x="5.08" y="15.24" smashed="yes">
 <attribute name="NAME" x="0" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="0" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="30.48" y="15.24" smashed="yes">
+<instance part="D_A0" gate="G$1" x="30.48" y="15.24" smashed="yes">
 <attribute name="NAME" x="25.4" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="55.88" y="15.24" smashed="yes">
+<instance part="D_B1" gate="G$1" x="55.88" y="15.24" smashed="yes">
 <attribute name="NAME" x="50.8" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.8" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="81.28" y="15.24" smashed="yes">
+<instance part="D_B0" gate="G$1" x="81.28" y="15.24" smashed="yes">
 <attribute name="NAME" x="76.2" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="D5" gate="G$1" x="106.68" y="15.24" smashed="yes">
+<instance part="D_S1" gate="G$1" x="106.68" y="15.24" smashed="yes">
 <attribute name="NAME" x="101.6" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="D6" gate="G$1" x="132.08" y="15.24" smashed="yes">
+<instance part="D_S0" gate="G$1" x="132.08" y="15.24" smashed="yes">
 <attribute name="NAME" x="127" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="5.08" size="1.778" layer="96"/>
 </instance>
@@ -10072,33 +10073,32 @@ single cathode, 13 mm</description>
 <junction x="88.9" y="81.28"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="DP"/>
+<pinref part="D_A1" gate="G$1" pin="DP"/>
 <wire x1="12.7" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="DP"/>
+<pinref part="D_A0" gate="G$1" pin="DP"/>
 <wire x1="38.1" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="DP"/>
+<pinref part="D_B1" gate="G$1" pin="DP"/>
 <wire x1="63.5" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="DP"/>
+<pinref part="D_B0" gate="G$1" pin="DP"/>
 <wire x1="88.9" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="DP"/>
+<pinref part="D_S1" gate="G$1" pin="DP"/>
 <wire x1="114.3" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="DP"/>
-<wire x1="139.7" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="15.24" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="30.48" x2="149.86" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="30.48" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="D_S0" gate="G$1" pin="DP"/>
+<wire x1="149.86" y1="15.24" x2="149.86" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="15.24" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
+<junction x="149.86" y="15.24"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10400,27 +10400,27 @@ single cathode, 13 mm</description>
 <label x="5.08" y="71.12" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D_A1" gate="G$1" pin="A"/>
 <wire x1="-2.54" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D_A0" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D_B1" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D_B0" gate="G$1" pin="A"/>
 <wire x1="73.66" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D_S1" gate="G$1" pin="A"/>
 <wire x1="99.06" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="D_S0" gate="G$1" pin="A"/>
 <wire x1="124.46" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10431,27 +10431,27 @@ single cathode, 13 mm</description>
 <label x="5.08" y="68.58" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="B"/>
+<pinref part="D_A1" gate="G$1" pin="B"/>
 <wire x1="-2.54" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="B"/>
+<pinref part="D_A0" gate="G$1" pin="B"/>
 <wire x1="22.86" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="B"/>
+<pinref part="D_B1" gate="G$1" pin="B"/>
 <wire x1="48.26" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="B"/>
+<pinref part="D_B0" gate="G$1" pin="B"/>
 <wire x1="73.66" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="B"/>
+<pinref part="D_S1" gate="G$1" pin="B"/>
 <wire x1="99.06" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="B"/>
+<pinref part="D_S0" gate="G$1" pin="B"/>
 <wire x1="124.46" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10462,27 +10462,27 @@ single cathode, 13 mm</description>
 <label x="5.08" y="66.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D_A1" gate="G$1" pin="C"/>
 <wire x1="-2.54" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D_A0" gate="G$1" pin="C"/>
 <wire x1="22.86" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D_B1" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D_B0" gate="G$1" pin="C"/>
 <wire x1="73.66" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D_S1" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D_S0" gate="G$1" pin="C"/>
 <wire x1="124.46" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10493,27 +10493,27 @@ single cathode, 13 mm</description>
 <label x="45.72" y="63.5" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="D"/>
+<pinref part="D_A1" gate="G$1" pin="D"/>
 <wire x1="-2.54" y1="12.7" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="D"/>
+<pinref part="D_A0" gate="G$1" pin="D"/>
 <wire x1="22.86" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="D"/>
+<pinref part="D_B1" gate="G$1" pin="D"/>
 <wire x1="48.26" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="D"/>
+<pinref part="D_B0" gate="G$1" pin="D"/>
 <wire x1="73.66" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="D"/>
+<pinref part="D_S1" gate="G$1" pin="D"/>
 <wire x1="99.06" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="D"/>
+<pinref part="D_S0" gate="G$1" pin="D"/>
 <wire x1="124.46" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10524,27 +10524,27 @@ single cathode, 13 mm</description>
 <label x="45.72" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="E"/>
+<pinref part="D_A1" gate="G$1" pin="E"/>
 <wire x1="-2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="E"/>
+<pinref part="D_A0" gate="G$1" pin="E"/>
 <wire x1="22.86" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="E"/>
+<pinref part="D_B1" gate="G$1" pin="E"/>
 <wire x1="48.26" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="E"/>
+<pinref part="D_B0" gate="G$1" pin="E"/>
 <wire x1="73.66" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="E"/>
+<pinref part="D_S1" gate="G$1" pin="E"/>
 <wire x1="99.06" y1="10.16" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="E"/>
+<pinref part="D_S0" gate="G$1" pin="E"/>
 <wire x1="124.46" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10555,27 +10555,27 @@ single cathode, 13 mm</description>
 <label x="45.72" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="F"/>
+<pinref part="D_A1" gate="G$1" pin="F"/>
 <wire x1="12.7" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="F"/>
+<pinref part="D_A0" gate="G$1" pin="F"/>
 <wire x1="38.1" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="F"/>
+<pinref part="D_B1" gate="G$1" pin="F"/>
 <wire x1="63.5" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="F"/>
+<pinref part="D_B0" gate="G$1" pin="F"/>
 <wire x1="88.9" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="F"/>
+<pinref part="D_S1" gate="G$1" pin="F"/>
 <wire x1="114.3" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="F"/>
+<pinref part="D_S0" gate="G$1" pin="F"/>
 <wire x1="142.24" y1="30.48" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -10587,27 +10587,27 @@ single cathode, 13 mm</description>
 <label x="45.72" y="71.12" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="G"/>
+<pinref part="D_A1" gate="G$1" pin="G"/>
 <wire x1="12.7" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="G"/>
+<pinref part="D_A0" gate="G$1" pin="G"/>
 <wire x1="38.1" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="G"/>
+<pinref part="D_B1" gate="G$1" pin="G"/>
 <wire x1="63.5" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="G"/>
+<pinref part="D_B0" gate="G$1" pin="G"/>
 <wire x1="88.9" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="G"/>
+<pinref part="D_S1" gate="G$1" pin="G"/>
 <wire x1="114.3" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="G"/>
+<pinref part="D_S0" gate="G$1" pin="G"/>
 <wire x1="144.78" y1="30.48" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="17.78" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
 </segment>
@@ -10619,10 +10619,10 @@ single cathode, 13 mm</description>
 <label x="121.92" y="88.9" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="CK1"/>
+<pinref part="D_A0" gate="G$1" pin="CK1"/>
 <wire x1="38.1" y1="12.7" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="12.7" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="CK2"/>
+<pinref part="D_A0" gate="G$1" pin="CK2"/>
 <wire x1="40.64" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
 <label x="40.64" y="5.08" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <wire x1="40.64" y1="10.16" x2="40.64" y2="5.08" width="0.1524" layer="91" style="longdash"/>
@@ -10636,10 +10636,10 @@ single cathode, 13 mm</description>
 <label x="121.92" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="CK1"/>
+<pinref part="D_B0" gate="G$1" pin="CK1"/>
 <wire x1="88.9" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="12.7" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="CK2"/>
+<pinref part="D_B0" gate="G$1" pin="CK2"/>
 <wire x1="91.44" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 <label x="91.44" y="5.08" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <wire x1="91.44" y1="10.16" x2="91.44" y2="5.08" width="0.1524" layer="91" style="longdash"/>
@@ -10653,10 +10653,10 @@ single cathode, 13 mm</description>
 <label x="121.92" y="91.44" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="CK1"/>
+<pinref part="D_B1" gate="G$1" pin="CK1"/>
 <wire x1="63.5" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="12.7" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="CK2"/>
+<pinref part="D_B1" gate="G$1" pin="CK2"/>
 <wire x1="66.04" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <label x="66.04" y="5.08" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <wire x1="66.04" y1="10.16" x2="66.04" y2="5.08" width="0.1524" layer="91" style="longdash"/>
@@ -10670,10 +10670,10 @@ single cathode, 13 mm</description>
 <label x="86.36" y="93.98" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="CK1"/>
+<pinref part="D_S1" gate="G$1" pin="CK1"/>
 <wire x1="114.3" y1="12.7" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="12.7" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="CK2"/>
+<pinref part="D_S1" gate="G$1" pin="CK2"/>
 <wire x1="116.84" y1="10.16" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
 <label x="116.84" y="5.08" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <wire x1="116.84" y1="10.16" x2="116.84" y2="5.08" width="0.1524" layer="91" style="longdash"/>
@@ -10687,10 +10687,10 @@ single cathode, 13 mm</description>
 <label x="86.36" y="83.82" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="CK1"/>
+<pinref part="D_S0" gate="G$1" pin="CK1"/>
 <wire x1="139.7" y1="12.7" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="12.7" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="CK2"/>
+<pinref part="D_S0" gate="G$1" pin="CK2"/>
 <wire x1="142.24" y1="10.16" x2="139.7" y2="10.16" width="0.1524" layer="91"/>
 <label x="142.24" y="5.08" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <wire x1="142.24" y1="10.16" x2="142.24" y2="5.08" width="0.1524" layer="91" style="longdash"/>
@@ -10704,10 +10704,10 @@ single cathode, 13 mm</description>
 <label x="121.92" y="86.36" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="CK1"/>
+<pinref part="D_A1" gate="G$1" pin="CK1"/>
 <wire x1="12.7" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="CK2"/>
+<pinref part="D_A1" gate="G$1" pin="CK2"/>
 <wire x1="15.24" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <label x="15.24" y="5.08" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <wire x1="15.24" y1="10.16" x2="15.24" y2="5.08" width="0.1524" layer="91" style="longdash"/>
