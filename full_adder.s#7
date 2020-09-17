@@ -8306,16 +8306,16 @@ type 0204, grid 7.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TOGGLESWITCH" prefix="S" uservalue="yes">
+<deviceset name="TOGGLESWITCH" prefix="S">
 <gates>
-<gate name="G$1" symbol="TOGGLESWITCH" x="0" y="0"/>
+<gate name="S$1" symbol="TOGGLESWITCH" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TOGGLESWITCH">
 <connects>
-<connect gate="G$1" pin="P$A" pad="P$1"/>
-<connect gate="G$1" pin="P$B" pad="P$2"/>
-<connect gate="G$1" pin="P$X" pad="P$3"/>
+<connect gate="S$1" pin="P$A" pad="P$1"/>
+<connect gate="S$1" pin="P$B" pad="P$2"/>
+<connect gate="S$1" pin="P$X" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11412,7 +11412,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="422.656" y="48.768" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="424.815" y="48.768" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="297.18" y="50.8" smashed="yes">
+<instance part="U$1" gate="S$1" x="297.18" y="50.8" smashed="yes">
 <attribute name="NAME" x="297.18" y="58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="297.18" y="55.88" size="1.778" layer="96"/>
 </instance>
