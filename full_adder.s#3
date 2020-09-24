@@ -13783,7 +13783,8 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <sheet>
 <plain>
 <text x="-177.8" y="190.5" size="3.81" layer="100">10 Reverse Polarity + Overdischarge Protection</text>
-<text x="-66.04" y="165.1" size="1.778" layer="97">- calculate power dissipation of input mosfet
+<text x="-66.04" y="165.1" size="1.778" layer="97">- should be an NFET
+- calculate power dissipation of input mosfet
 - chose fet accordingly</text>
 </plain>
 <instances>

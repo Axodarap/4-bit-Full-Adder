@@ -11106,6 +11106,140 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="solpad" urn="urn:adsk.eagle:library:364">
+<description>&lt;b&gt;Solder Pads/Test Points&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="LSP11" urn="urn:adsk.eagle:footprint:26495/1" library_version="2">
+<description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt;
+drill 1.1 mm</description>
+<wire x1="-1.27" y1="0.254" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.254" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.254" x2="1.143" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.143" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.143" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.254" x2="-1.143" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.254" x2="0.635" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="-0.254" x2="-0.635" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0.254" x2="0.635" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0.254" x2="-0.635" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="-0.254" x2="1.143" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="0.254" x2="-0.635" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="0.254" x2="-1.143" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="-0.254" x2="0.635" y2="-0.254" width="0.1524" layer="51"/>
+<pad name="MP" x="0" y="0" drill="1.1176" diameter="2.159" shape="octagon"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0.254" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="LSP11" urn="urn:adsk.eagle:package:26502/1" type="box" library_version="2">
+<description>SOLDER PAD
+drill 1.1 mm</description>
+<packageinstances>
+<packageinstance name="LSP11"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LSP" urn="urn:adsk.eagle:symbol:26492/1" library_version="2">
+<wire x1="-1.016" y1="2.032" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="1.016" y2="2.032" width="0.254" layer="94"/>
+<circle x="0" y="1.016" radius="1.016" width="0.4064" layer="94"/>
+<text x="-1.27" y="2.921" size="1.778" layer="95">&gt;NAME</text>
+<pin name="MP" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LSP11" urn="urn:adsk.eagle:component:26507/2" prefix="LSP" library_version="2">
+<description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt;
+drill 1.1 mm</description>
+<gates>
+<gate name="1" symbol="LSP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LSP11">
+<connects>
+<connect gate="1" pin="MP" pad="MP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26502/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="transistor-power" urn="urn:adsk.eagle:library:400">
+<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="MFP-D" urn="urn:adsk.eagle:symbol:29382/1" library_version="4">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.5334" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.2352" y1="0" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0.508" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0.254" x2="2.032" y2="0" width="0.3048" layer="94"/>
+<wire x1="2.032" y1="0" x2="1.143" y2="-0.254" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="-0.254" x2="1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="0" x2="1.397" y2="0" width="0.3048" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="4.445" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-0.635" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="0.762" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.762" x2="2.921" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="0.762" x2="4.699" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.143" y="-3.429" size="0.8128" layer="93">D</text>
+<text x="1.143" y="2.413" size="0.8128" layer="93">S</text>
+<text x="-2.54" y="1.397" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="P-MOSFET_SYMBOL" urn="urn:adsk.eagle:component:29511/2" prefix="Q" library_version="4">
+<description>P-CHANNEL MOS-FET &lt;b&gt;SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MFP-D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11254,6 +11388,11 @@ Source: www.kingbright.com</description>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="VCC_IN" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="LSP11" device="" package3d_urn="urn:adsk.eagle:package:26502/1"/>
+<part name="GND_IN" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="LSP11" device="" package3d_urn="urn:adsk.eagle:package:26502/1"/>
+<part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13425,6 +13564,57 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="LED12" gate="G$1" pin="A"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="-177.8" y="190.5" size="3.81" layer="100">10 Reverse Polarity Protection</text>
+</plain>
+<instances>
+<instance part="FRAME1" gate="G$1" x="-187.96" y="-55.88" smashed="yes">
+<attribute name="DRAWING_NAME" x="156.21" y="-40.64" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="156.21" y="-45.72" size="2.286" layer="94"/>
+<attribute name="SHEET" x="169.545" y="-50.8" size="2.54" layer="94"/>
+</instance>
+<instance part="VCC_IN" gate="1" x="-170.18" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-168.91" y="182.499" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND_IN" gate="1" x="-170.18" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="-168.91" y="167.259" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND47" gate="1" x="-149.86" y="157.48" smashed="yes">
+<attribute name="VALUE" x="-152.4" y="154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="Q1" gate="G$1" x="-152.4" y="175.26" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-152.4" y="182.88" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-152.4" y="185.42" size="1.778" layer="96" rot="MR180"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$30" class="0">
+<segment>
+<pinref part="VCC_IN" gate="1" pin="MP"/>
+<wire x1="-167.64" y1="177.8" x2="-157.48" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<wire x1="-147.32" y1="177.8" x2="-144.78" y2="177.8" width="0.1524" layer="91"/>
+<label x="-144.78" y="177.8" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND_IN" gate="1" pin="MP"/>
+<wire x1="-149.86" y1="172.72" x2="-149.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="162.56" x2="-167.64" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="-149.86" y1="160.02" x2="-149.86" y2="162.56" width="0.1524" layer="91"/>
+<junction x="-149.86" y="162.56"/>
 </segment>
 </net>
 </nets>
