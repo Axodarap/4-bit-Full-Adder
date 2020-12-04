@@ -8607,6 +8607,30 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/cd4052b"&gt; Datasheet &lt;/a&gt;<
 <wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
 <wire x1="-3.475" y1="2.605" x2="-1.95" y2="2.605" width="0.2" layer="21"/>
 </package>
+<package name="TPH1R712MDL1Q">
+<description>&lt;b&gt;TPH1R712MD,L1Q-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.905" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="9" x="0" y="0.55" dx="4.7" dy="3.75" layer="1"/>
+<text x="-1.27" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-2.5" y1="2.6" x2="2.5" y2="2.6" width="0.2" layer="51"/>
+<wire x1="2.5" y1="2.6" x2="2.5" y2="-2.4" width="0.2" layer="51"/>
+<wire x1="2.5" y1="-2.4" x2="-2.5" y2="-2.4" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-2.4" x2="-2.5" y2="2.6" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="4.475" x2="3.5" y2="4.475" width="0.1" layer="51"/>
+<wire x1="3.5" y1="4.475" x2="3.5" y2="-4.475" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-4.475" x2="-3.5" y2="-4.475" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-4.475" x2="-3.5" y2="4.475" width="0.1" layer="51"/>
+<wire x1="-2" y1="-3.9" x2="-2" y2="-4.1" width="0.2" layer="21" curve="180"/>
+<wire x1="-2" y1="-4.1" x2="-2" y2="-3.9" width="0.2" layer="21" curve="180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74HC4051N,652">
@@ -8648,6 +8672,38 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/cd4052b"&gt; Datasheet &lt;/a&gt;<
 <pin name="D2" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <pin name="D1_1" x="25.4" y="-5.08" length="middle" rot="R180"/>
 <pin name="D1" x="25.4" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="P_MOSFET">
+<wire x1="-1.651" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-0.508" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="1.397" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="0.762" y1="-0.635" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="-0.127" y="0"/>
+<vertex x="-1.143" y="-0.635"/>
+<vertex x="-1.143" y="0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="-0.508"/>
+<vertex x="0.762" y="0.508"/>
+<vertex x="2.032" y="0.508"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -8717,6 +8773,24 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MOUSER_PART_NUMBER" value="512-FDS6892A" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDS6892A" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPH1R712MD" prefix="T">
+<description>Silicon P-Channel enhancement type MOS</description>
+<gates>
+<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TPH1R712MDL1Q">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 9"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11250,71 +11324,6 @@ drill 1.1 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-power" urn="urn:adsk.eagle:library:400">
-<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="MFP-D" urn="urn:adsk.eagle:symbol:29382/1" library_version="4">
-<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.5334" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.2352" y1="0" x2="2.286" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="0" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="0.508" x2="2.286" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.143" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.143" y1="0.254" x2="2.032" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.032" y1="0" x2="1.143" y2="-0.254" width="0.3048" layer="94"/>
-<wire x1="1.143" y1="-0.254" x2="1.143" y2="0" width="0.3048" layer="94"/>
-<wire x1="1.143" y1="0" x2="1.397" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="4.445" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.635" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="0.762" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.762" x2="2.921" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="0.762" x2="4.699" y2="0.508" width="0.1524" layer="94"/>
-<circle x="2.54" y="1.905" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.143" y="-3.429" size="0.8128" layer="93">D</text>
-<text x="1.143" y="2.413" size="0.8128" layer="93">S</text>
-<text x="-2.54" y="1.397" size="0.8128" layer="93">G</text>
-<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
-<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="P-MOSFET_SYMBOL" urn="urn:adsk.eagle:component:29511/2" prefix="Q" library_version="4">
-<description>P-CHANNEL MOS-FET &lt;b&gt;SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MFP-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="_hhn_attiny25_45_85">
 <description>&lt;h3&gt;ATMEL ATtiny 25 / 45 /48&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;Supplied Packages:&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;
@@ -12757,7 +12766,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="VCC_IN1" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="LSP11" device="" package3d_urn="urn:adsk.eagle:package:26502/1"/>
 <part name="GND_IN1" library="solpad" library_urn="urn:adsk.eagle:library:364" deviceset="LSP11" device="" package3d_urn="urn:adsk.eagle:package:26502/1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q101" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device=""/>
 <part name="U101" library="_hhn_attiny25_45_85" deviceset="ATTINY45*" device="P" technology="-20"/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="0.1 µF"/>
@@ -12780,7 +12788,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP102" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP103" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="TP104" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
-<part name="Q102" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device=""/>
+<part name="T102" library="SamacSys_Parts" deviceset="TPH1R712MD" device=""/>
+<part name="T101" library="SamacSys_Parts" deviceset="TPH1R712MD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13093,10 +13102,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND40" gate="1" x="309.88" y="182.88" smashed="yes">
 <attribute name="VALUE" x="307.34" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="Q101" gate="G$1" x="307.34" y="220.98" smashed="yes" rot="MR90">
-<attribute name="NAME" x="307.34" y="228.6" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="307.34" y="231.14" size="1.778" layer="96" rot="MR180"/>
-</instance>
 <instance part="U101" gate="G$1" x="350.52" y="210.82" smashed="yes">
 <attribute name="NAME" x="340.36" y="219.202" size="1.778" layer="95"/>
 <attribute name="VALUE" x="340.36" y="198.12" size="1.778" layer="96"/>
@@ -13177,9 +13182,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="374.65" y="201.93" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="372.11" y="201.93" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="Q102" gate="G$1" x="401.32" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="398.78" y="226.06" size="1.778" layer="95"/>
-<attribute name="VALUE" x="398.78" y="228.6" size="1.778" layer="96"/>
+<instance part="T102" gate="G$1" x="401.32" y="223.52" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="396.24" y="231.14" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="396.24" y="228.6" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="T101" gate="G$1" x="307.34" y="223.52" smashed="yes" rot="R90">
+<attribute name="VALUE" x="302.26" y="228.6" size="1.778" layer="96"/>
+<attribute name="NAME" x="302.26" y="226.06" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -13351,6 +13360,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="406.4" y1="223.52" x2="419.1" y2="223.52" width="0.1524" layer="91"/>
 <label x="419.1" y="223.52" size="0.8128" layer="95" xref="yes"/>
+<pinref part="T102" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13636,10 +13646,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND_IN1" gate="1" pin="MP"/>
-<wire x1="309.88" y1="218.44" x2="309.88" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="208.28" x2="292.1" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="309.88" y1="185.42" x2="309.88" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="T101" gate="G$1" pin="G"/>
+<wire x1="309.88" y1="218.44" x2="309.88" y2="208.28" width="0.1524" layer="91"/>
 <junction x="309.88" y="208.28"/>
 </segment>
 <segment>
@@ -14616,26 +14627,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="609.6" y1="147.32" x2="601.98" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="VCC_IN1" gate="1" pin="MP"/>
-<wire x1="292.1" y1="223.52" x2="302.26" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$42" class="0">
 <segment>
-<wire x1="312.42" y1="223.52" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="U101" gate="G$1" pin="VCC"/>
 <wire x1="322.58" y1="223.52" x2="322.58" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="215.9" x2="335.28" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="223.52" x2="388.62" y2="223.52" width="0.1524" layer="91"/>
-<junction x="322.58" y="223.52"/>
 <pinref part="C101" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="223.52" x2="396.24" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="208.28" x2="322.58" y2="215.9" width="0.1524" layer="91"/>
 <junction x="322.58" y="215.9"/>
 <pinref part="R102" gate="G$1" pin="2"/>
 <junction x="388.62" y="223.52"/>
+<pinref part="T101" gate="G$1" pin="S"/>
+<wire x1="312.42" y1="223.52" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
+<junction x="322.58" y="223.52"/>
+<pinref part="T102" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -14646,6 +14653,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="398.78" y1="213.36" x2="398.78" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R102" gate="G$1" pin="1"/>
 <junction x="388.62" y="213.36"/>
+<pinref part="T102" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -14688,6 +14696,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U101" gate="G$1" pin="PB0"/>
 <pinref part="TP104" gate="G$1" pin="TP"/>
 <wire x1="368.3" y1="203.2" x2="370.84" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="VCC_IN1" gate="1" pin="MP"/>
+<pinref part="T101" gate="G$1" pin="D"/>
+<wire x1="292.1" y1="223.52" x2="302.26" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
