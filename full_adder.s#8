@@ -13349,8 +13349,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="604.52" y="96.52"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="223.52" x2="434.34" y2="223.52" width="0.1524" layer="91"/>
-<label x="434.34" y="223.52" size="1.778" layer="95" xref="yes"/>
+<wire x1="406.4" y1="223.52" x2="419.1" y2="223.52" width="0.1524" layer="91"/>
+<label x="419.1" y="223.52" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">

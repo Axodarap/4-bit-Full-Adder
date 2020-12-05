@@ -12787,9 +12787,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C304" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1 µF"/>
 <part name="C305" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1 µF"/>
 <part name="C603" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1 µF"/>
-<part name="C602" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.01 µF"/>
-<part name="C601" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1 µF"/>
 <part name="C701" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1 µF"/>
+<part name="C601" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="1µF"/>
+<part name="C602" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="0.01µF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13178,17 +13178,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="357.124" y="18.161" size="1.778" layer="95"/>
 <attribute name="VALUE" x="357.124" y="13.081" size="1.778" layer="96"/>
 </instance>
-<instance part="C602" gate="G$1" x="340.36" y="17.78" smashed="yes">
-<attribute name="NAME" x="341.884" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="341.884" y="13.081" size="1.778" layer="96"/>
+<instance part="C701" gate="G$1" x="434.34" y="17.78" smashed="yes">
+<attribute name="NAME" x="435.864" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="435.864" y="13.081" size="1.778" layer="96"/>
 </instance>
 <instance part="C601" gate="G$1" x="302.26" y="15.24" smashed="yes">
 <attribute name="NAME" x="303.784" y="15.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="303.784" y="10.541" size="1.778" layer="96"/>
 </instance>
-<instance part="C701" gate="G$1" x="434.34" y="17.78" smashed="yes">
-<attribute name="NAME" x="435.864" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="435.864" y="13.081" size="1.778" layer="96"/>
+<instance part="C602" gate="G$1" x="340.36" y="17.78" smashed="yes">
+<attribute name="NAME" x="341.884" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="341.884" y="13.081" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13690,8 +13690,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C304" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C601" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="C601" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
