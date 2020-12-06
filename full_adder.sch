@@ -8108,13 +8108,13 @@ http://www.st.com&lt;p&gt;
 <library name="custom">
 <packages>
 <package name="POTENTIOMETER">
-<smd name="POT$1" x="0" y="0" dx="3.81" dy="2.54" layer="1" roundness="62" rot="R90"/>
-<smd name="POT$2" x="5.08" y="0" dx="3.81" dy="2.54" layer="1" roundness="62" rot="R90"/>
+<smd name="POT$1" x="-1.27" y="1.27" dx="1.778" dy="1.778" layer="1" roundness="100" rot="R90"/>
+<smd name="POT$2" x="1.27" y="1.27" dx="1.778" dy="1.778" layer="1" roundness="100" rot="R90"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="-2.54" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="KM28C65A-20">
 <wire x1="-48.26" y1="10.16" x2="-48.26" y2="22.86" width="0.127" layer="21"/>
@@ -8157,16 +8157,16 @@ http://www.st.com&lt;p&gt;
 </package>
 <package name="TOGGLESWITCH">
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
-<smd name="VCC" x="0" y="0" dx="3.81" dy="2.54" layer="1" roundness="62" rot="R90"/>
-<smd name="GND" x="5.08" y="0" dx="3.81" dy="2.54" layer="1" roundness="62" rot="R90"/>
-<smd name="OUT" x="10.16" y="0" dx="3.81" dy="2.54" layer="1" roundness="62" rot="R90"/>
-<wire x1="-2.54" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="21"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<text x="-0.9525" y="-3.175" size="0.6096" layer="21">VCC</text>
-<text x="4.1275" y="-3.175" size="0.6096" layer="21">GND</text>
-<text x="9.2075" y="-3.175" size="0.6096" layer="21">OUT</text>
+<smd name="VCC" x="-1.27" y="1.27" dx="1.778" dy="1.778" layer="1" roundness="100" rot="R90"/>
+<smd name="GND" x="1.27" y="1.27" dx="1.778" dy="1.778" layer="1" roundness="100" rot="R90"/>
+<smd name="OUT" x="3.81" y="1.27" dx="1.778" dy="1.778" layer="1" roundness="100" rot="R90"/>
+<wire x1="-2.54" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<text x="-2.2225" y="-0.635" size="0.6096" layer="21">VCC</text>
+<text x="0.2794" y="-0.635" size="0.6096" layer="21">GND</text>
+<text x="2.8575" y="-0.635" size="0.6096" layer="21">OUT</text>
 </package>
 <package name="BATTERY_CONNECTOR">
 <smd name="VIN+" x="-0.321309375" y="0" dx="3.81" dy="2.54" layer="1" roundness="50" rot="R90"/>
@@ -13713,13 +13713,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="C1" class="0">
 <segment>
-<pinref part="U701" gate="G$1" pin="1D"/>
-<wire x1="396.24" y1="33.02" x2="393.7" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="33.02" x2="393.7" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U701" gate="G$1" pin="1!Q"/>
-<wire x1="393.7" y1="22.86" x2="396.24" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U701" gate="G$1" pin="2CLK"/>
 <wire x1="426.72" y1="27.94" x2="441.96" y2="27.94" width="0.1524" layer="91"/>
 <label x="441.96" y="27.94" size="0.8128" layer="95" xref="yes"/>
@@ -14668,6 +14661,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R404" gate="G$1" pin="1"/>
 <pinref part="U401" gate="G$1" pin="I/O3"/>
 <wire x1="340.36" y1="104.14" x2="335.28" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="U701" gate="G$1" pin="1D"/>
+<wire x1="396.24" y1="33.02" x2="393.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="33.02" x2="393.7" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U701" gate="G$1" pin="1!Q"/>
+<wire x1="393.7" y1="22.86" x2="396.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
