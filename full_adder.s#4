@@ -12685,30 +12685,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="S908" library="custom" deviceset="TOGGLESWITCH" device=""/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1101" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1102" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1103" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1104" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1105" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1105" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1106" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1106" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1107" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1107" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1108" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1108" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U101" library="_hhn_attiny25_45_85" deviceset="ATTINY45*" device="P" technology="-20" value="ATTINY85"/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14676,15 +14652,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </sheet>
 <sheet>
 <plain>
-<text x="-180.34" y="109.22" size="3.81" layer="100">11 Binary Input LEDs</text>
 <text x="-180.34" y="193.04" size="3.81" layer="100">9 Input Selection</text>
 <wire x1="-182.88" y1="116.84" x2="-81.28" y2="116.84" width="0.1524" layer="100" style="longdash"/>
 <wire x1="-81.28" y1="116.84" x2="-43.18" y2="116.84" width="0.1524" layer="100" style="longdash"/>
 <wire x1="-43.18" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="100" style="longdash"/>
 <wire x1="-43.18" y1="200.66" x2="-43.18" y2="116.84" width="0.1524" layer="100" style="longdash"/>
 <text x="-38.1" y="193.04" size="3.81" layer="100">10 Binary Output LEDs</text>
-<wire x1="-185.42" y1="58.42" x2="-81.28" y2="58.42" width="0.1524" layer="100" style="longdash"/>
-<wire x1="-81.28" y1="58.42" x2="-81.28" y2="116.84" width="0.1524" layer="100" style="longdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-187.96" y="-55.88" smashed="yes">
@@ -14840,94 +14813,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND28" gate="1" x="-83.82" y="124.46" smashed="yes">
 <attribute name="VALUE" x="-86.36" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1101" gate="G$1" x="-172.72" y="78.74" smashed="yes">
-<attribute name="NAME" x="-169.164" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-167.005" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1101" gate="G$1" x="-172.72" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-171.45" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-171.45" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND29" gate="1" x="-172.72" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-175.26" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1102" gate="G$1" x="-162.56" y="78.74" smashed="yes">
-<attribute name="NAME" x="-159.004" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-156.845" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1102" gate="G$1" x="-162.56" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-161.29" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-161.29" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND30" gate="1" x="-162.56" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-165.1" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1103" gate="G$1" x="-152.4" y="78.74" smashed="yes">
-<attribute name="NAME" x="-148.844" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-146.685" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1103" gate="G$1" x="-152.4" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-151.13" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-151.13" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND31" gate="1" x="-152.4" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-154.94" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1104" gate="G$1" x="-142.24" y="78.74" smashed="yes">
-<attribute name="NAME" x="-138.684" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-136.525" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1104" gate="G$1" x="-142.24" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-140.97" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-140.97" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND32" gate="1" x="-142.24" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-144.78" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1105" gate="G$1" x="-127" y="78.74" smashed="yes">
-<attribute name="NAME" x="-123.444" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-121.285" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1105" gate="G$1" x="-127" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-125.73" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-125.73" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND33" gate="1" x="-127" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-129.54" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1106" gate="G$1" x="-116.84" y="78.74" smashed="yes">
-<attribute name="NAME" x="-113.284" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-111.125" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1106" gate="G$1" x="-116.84" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-115.57" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-115.57" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND34" gate="1" x="-116.84" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-119.38" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1107" gate="G$1" x="-106.68" y="78.74" smashed="yes">
-<attribute name="NAME" x="-103.124" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-100.965" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1107" gate="G$1" x="-106.68" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-105.41" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-105.41" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND35" gate="1" x="-106.68" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-109.22" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1108" gate="G$1" x="-96.52" y="78.74" smashed="yes">
-<attribute name="NAME" x="-92.964" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-90.805" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1108" gate="G$1" x="-96.52" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-95.25" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-95.25" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="GND36" gate="1" x="-96.52" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-99.06" y="66.04" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -14998,46 +14883,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="S908" gate="S$1" pin="P$A"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="-83.82" y1="132.08" x2="-83.82" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND29" gate="1" pin="GND"/>
-<pinref part="LED1101" gate="G$1" pin="C"/>
-<wire x1="-172.72" y1="71.12" x2="-172.72" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND30" gate="1" pin="GND"/>
-<pinref part="LED1102" gate="G$1" pin="C"/>
-<wire x1="-162.56" y1="71.12" x2="-162.56" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND31" gate="1" pin="GND"/>
-<pinref part="LED1103" gate="G$1" pin="C"/>
-<wire x1="-152.4" y1="71.12" x2="-152.4" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND32" gate="1" pin="GND"/>
-<pinref part="LED1104" gate="G$1" pin="C"/>
-<wire x1="-142.24" y1="71.12" x2="-142.24" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND33" gate="1" pin="GND"/>
-<pinref part="LED1105" gate="G$1" pin="C"/>
-<wire x1="-127" y1="71.12" x2="-127" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND34" gate="1" pin="GND"/>
-<pinref part="LED1106" gate="G$1" pin="C"/>
-<wire x1="-116.84" y1="71.12" x2="-116.84" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND35" gate="1" pin="GND"/>
-<pinref part="LED1107" gate="G$1" pin="C"/>
-<wire x1="-106.68" y1="71.12" x2="-106.68" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND36" gate="1" pin="GND"/>
-<pinref part="LED1108" gate="G$1" pin="C"/>
-<wire x1="-96.52" y1="71.12" x2="-96.52" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -15238,22 +15083,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-152.4" y1="167.64" x2="-149.86" y2="167.64" width="0.1524" layer="91"/>
 <label x="-149.86" y="167.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R1101" gate="G$1" pin="2"/>
-<wire x1="-172.72" y1="91.44" x2="-172.72" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-172.72" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="B0" class="0">
 <segment>
 <pinref part="S905" gate="S$1" pin="P$X"/>
 <wire x1="-152.4" y1="134.62" x2="-149.86" y2="134.62" width="0.1524" layer="91"/>
 <label x="-149.86" y="134.62" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1105" gate="G$1" pin="2"/>
-<wire x1="-127" y1="91.44" x2="-127" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-127" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -15262,22 +15097,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-124.46" y1="167.64" x2="-121.92" y2="167.64" width="0.1524" layer="91"/>
 <label x="-121.92" y="167.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R1102" gate="G$1" pin="2"/>
-<wire x1="-162.56" y1="91.44" x2="-162.56" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-162.56" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="B1" class="0">
 <segment>
 <pinref part="S906" gate="S$1" pin="P$X"/>
 <wire x1="-124.46" y1="134.62" x2="-121.92" y2="134.62" width="0.1524" layer="91"/>
 <label x="-121.92" y="134.62" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1106" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="91.44" x2="-116.84" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-116.84" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -15286,22 +15111,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-96.52" y1="167.64" x2="-93.98" y2="167.64" width="0.1524" layer="91"/>
 <label x="-93.98" y="167.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R1103" gate="G$1" pin="2"/>
-<wire x1="-152.4" y1="91.44" x2="-152.4" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-152.4" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="B2" class="0">
 <segment>
 <pinref part="S907" gate="S$1" pin="P$X"/>
 <wire x1="-96.52" y1="134.62" x2="-93.98" y2="134.62" width="0.1524" layer="91"/>
 <label x="-93.98" y="134.62" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1107" gate="G$1" pin="2"/>
-<wire x1="-106.68" y1="91.44" x2="-106.68" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-106.68" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="B3" class="0">
@@ -15310,70 +15125,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-68.58" y1="134.62" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
 <label x="-66.04" y="134.62" size="0.8128" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R1108" gate="G$1" pin="2"/>
-<wire x1="-96.52" y1="91.44" x2="-96.52" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-96.52" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="A3" class="0">
 <segment>
 <pinref part="S904" gate="S$1" pin="P$X"/>
 <wire x1="-68.58" y1="167.64" x2="-66.04" y2="167.64" width="0.1524" layer="91"/>
 <label x="-66.04" y="167.64" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1104" gate="G$1" pin="2"/>
-<wire x1="-142.24" y1="91.44" x2="-142.24" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="-142.24" y="93.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R1101" gate="G$1" pin="1"/>
-<pinref part="LED1101" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R1102" gate="G$1" pin="1"/>
-<pinref part="LED1102" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="R1103" gate="G$1" pin="1"/>
-<pinref part="LED1103" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="R1104" gate="G$1" pin="1"/>
-<pinref part="LED1104" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="R1105" gate="G$1" pin="1"/>
-<pinref part="LED1105" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R1106" gate="G$1" pin="1"/>
-<pinref part="LED1106" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="R1107" gate="G$1" pin="1"/>
-<pinref part="LED1107" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="R1108" gate="G$1" pin="1"/>
-<pinref part="LED1108" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

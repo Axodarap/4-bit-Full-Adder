@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -29,13 +29,13 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -81,6 +81,11 @@
 <text x="63" y="30" size="1.016" layer="25" align="center">LSB</text>
 <text x="37" y="30" size="1.016" layer="25" align="center">MSB</text>
 <text x="84" y="2" size="1.016" layer="25">BAT_LED</text>
+<text x="97.5" y="1.2" size="1.778" layer="26" rot="MR0">Jakob Soukup 2020</text>
+<hole x="5" y="115" drill="3.3"/>
+<hole x="95" y="115" drill="3.3"/>
+<hole x="95" y="5" drill="3.3"/>
+<hole x="5" y="5" drill="3.3"/>
 </plain>
 <libraries>
 <library name="SN74LS08N">
@@ -2033,7 +2038,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32" y="4.5" size="1.27" layer="25" rot="R90" align="center-left"/>
 <attribute name="RS_PART_NUMBER" value="0307519P" x="80.69" y="38.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0307519P" x="80.69" y="38.98" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="19" y="8.5" size="1.27" layer="27" rot="R90" align="center"/>
+<attribute name="VALUE" x="21.5" y="9" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C1" library="custom" package="BATTERY_CONNECTOR" value="BATTERY_CONNECTOR" x="91.13" y="26.59" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.67" y="30.4" size="1.27" layer="26" rot="MR0"/>
@@ -2179,27 +2184,27 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0307569P" x="117.69" y="61.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="56" y="20" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R1001" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2" x="63" y="39" smashed="yes" rot="R90">
+<element name="R1001" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="63" y="39" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.73" y="37" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="41" x="158.25" y="56.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="158.25" y="56.78" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1002" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2" x="56.5" y="39" smashed="yes" rot="R90">
+<element name="R1002" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="56.5" y="39" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.23" y="37" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="41" x="151.75" y="64.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="151.75" y="64.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1003" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2" x="50" y="39" smashed="yes" rot="R90">
+<element name="R1003" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="50" y="39" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.73" y="37" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="41" x="145.25" y="72.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="145.25" y="72.02" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1004" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2" x="43.5" y="39" smashed="yes" rot="R90">
+<element name="R1004" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="43.5" y="39" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.23" y="37" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="41" x="138.75" y="79.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="138.75" y="79.64" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1005" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2" x="37" y="39" smashed="yes" rot="R90">
+<element name="R1005" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="37" y="39" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.73" y="37" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="41" x="132.25" y="87.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="132.25" y="87.26" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2209,7 +2214,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="41" x="-26.68" y="107.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-26.68" y="107.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100k" x="72" y="14.03" smashed="yes" rot="R270">
+<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="72" y="14.03" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.27" y="15.3" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="41" x="-29.6" y="-99" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-29.6" y="-99" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2436,10 +2441,10 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LS86N" x="107.42" y="105.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="107.42" y="105.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="107.42" y="105.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="52" y="8.5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="60" y="8.5" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="0644234" x="107.42" y="105.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0644234" x="107.42" y="105.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="47" y="8.5" size="1.27" layer="27" rot="R90" align="center"/>
+<attribute name="VALUE" x="49.5" y="9" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2606,7 +2611,6 @@ design rules under a new name.</description>
 <wire x1="5.73" y1="53.00480625" x2="5.73" y2="52.27" width="0.508" layer="16"/>
 <wire x1="93.55" y1="13.3" x2="95.455" y2="11.395" width="0.508" layer="1"/>
 <wire x1="95.455" y1="11.395" x2="95.95" y2="11.395" width="0.508" layer="1"/>
-<wire x1="5.7" y1="44.3" x2="5.73" y2="44.27" width="0.508" layer="16"/>
 <wire x1="5.73" y1="44.27" x2="5.73" y2="44.03" width="0.508" layer="16"/>
 <wire x1="5.73" y1="44.03" x2="4.7" y2="43" width="0.508" layer="16"/>
 <wire x1="5.3" y1="43.6" x2="4.7" y2="43" width="0.508" layer="1"/>
